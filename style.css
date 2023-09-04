@@ -1,0 +1,79 @@
+/***fontawsome***/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/****header style****/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav .nav-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+span {
+    color: #FF42A5;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+
+
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px;
+
+}
+
+.nav-icon .icon {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/*****************************responsive for mobile**********/
+@media screen and (max-width:576px) {
+
+    nav,
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/*****************************responsive for tablet**********/
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    nav,
+    nav ul {
+        flex-direction: column;
+    }
+
+}
