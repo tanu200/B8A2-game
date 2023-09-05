@@ -101,13 +101,57 @@ h1 {
     padding: 21px 40px;
 }
 
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*****gamer style***/
+.gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gamer-area {
+    text-align: end;
+
+}
+
+.colorful-text {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gamer-area p {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /*****************************responsive for mobile**********/
 @media screen and (max-width:576px) {
 
     nav,
     nav ul,
-    .banner-area {
+    .banner-area,
+    .gamer {
         flex-direction: column;
+    }
+
+    .gamer-area {
+        text-align: center;
     }
 }
 
@@ -116,8 +160,13 @@ h1 {
 
     nav,
     nav ul,
-    .banner-area {
+    .banner-area,
+    .gamer {
         flex-direction: column;
+    }
+
+    .gamer-area {
+        text-align: center;
     }
 
 }
