@@ -226,6 +226,32 @@ h1 {
 
 }
 
+/***different games style***/
+.games-area {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.games-details {
+    display: flex;
+    align-items: center;
+}
+
+.games-details:hover {
+    border: 3px solid #F948B2;
+    border-radius: 50px;
+    padding: 5px;
+    color: #F948B2;
+
+}
+
+.games-details p {
+    margin-left: 10px;
+}
 
 /*****************************responsive for mobile**********/
 @media screen and (max-width:576px) {
