@@ -6,13 +6,16 @@ body {
 }
 
 /****header style****/
+header {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+
 }
 
 .nav-left {
@@ -59,11 +62,51 @@ nav ul li {
     margin-left: 10px;
 }
 
+/***banner style****/
+.banner-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 30px;
+    margin: 0;
+}
+
+.button-pink {
+    background-color: #FF42A5;
+    color: aliceblue;
+    border: none;
+    border-radius: 48px;
+    padding: 21px 40px;
+
+}
+
+.btn-blue {
+    background-color: #4EC5F7;
+    color: aliceblue;
+    border: none;
+    border-radius: 48px;
+    padding: 21px 40px;
+}
+
 /*****************************responsive for mobile**********/
 @media screen and (max-width:576px) {
 
     nav,
-    nav ul {
+    nav ul,
+    .banner-area {
         flex-direction: column;
     }
 }
@@ -72,7 +115,8 @@ nav ul li {
 @media screen and (min-width:576px) and (max-width:960px) {
 
     nav,
-    nav ul {
+    nav ul,
+    .banner-area {
         flex-direction: column;
     }
 
