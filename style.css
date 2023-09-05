@@ -101,10 +101,6 @@ h1 {
     padding: 21px 40px;
 }
 
-main {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 /*****gamer style***/
 .gamer {
@@ -112,6 +108,8 @@ main {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .gamer-area {
@@ -142,6 +140,11 @@ main {
 
 }
 
+.funny-section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .funny h5 {
     font-size: 40px;
     margin: 0px;
@@ -166,6 +169,8 @@ main {
     margin-top: 50px;
     justify-content: space-around;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .gamer-area h5 {
@@ -190,7 +195,36 @@ main {
     bottom: 150px;
 }
 
+/**careers style***/
+.careers {
+    display: flex;
+    align-items: center;
+    background-color: #FF42A5;
+    color: aliceblue;
+    padding: 50px;
 
+}
+
+.careers h3 {
+    font-size: 40px;
+}
+
+.careers-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.careers-area button {
+    border-radius: 48px;
+    border: none;
+    color: #FF42A5;
+    padding: 21px 40px;
+}
+
+.career-img img {
+    width: 100%;
+
+}
 
 
 /*****************************responsive for mobile**********/
@@ -200,7 +234,8 @@ main {
     nav ul,
     .banner-area,
     .gamer,
-    .play {
+    .play,
+    .careers {
         flex-direction: column;
     }
 
@@ -220,8 +255,10 @@ main {
     nav ul,
     .banner-area,
     .gamer,
-    .play {
+    .play,
+    .careers {
         flex-direction: column;
+
     }
 
     .gamer-area {
