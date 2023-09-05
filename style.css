@@ -109,7 +109,6 @@ main {
 /*****gamer style***/
 .gamer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -117,6 +116,7 @@ main {
 
 .gamer-area {
     text-align: end;
+
 
 }
 
@@ -134,8 +134,6 @@ main {
     font-size: 18px;
     font-weight: 400;
 }
-
-
 
 /****funny videos****/
 .funny {
@@ -162,6 +160,36 @@ main {
 
 }
 
+/**play style***/
+.play {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gamer-area h5 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.play .gamer-area {
+    margin-right: 20px;
+}
+
+.player-img img {
+    height: 90%;
+    margin-left: 100px;
+}
+
+.short-img img {
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 150px;
+}
+
 
 
 
@@ -171,7 +199,8 @@ main {
     nav,
     nav ul,
     .banner-area,
-    .gamer {
+    .gamer,
+    .play {
         flex-direction: column;
     }
 
@@ -190,7 +219,8 @@ main {
     nav,
     nav ul,
     .banner-area,
-    .gamer {
+    .gamer,
+    .play {
         flex-direction: column;
     }
 
