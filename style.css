@@ -112,6 +112,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .gamer-area {
@@ -134,11 +135,35 @@ main {
     font-weight: 400;
 }
 
-.gamer-area p {
-    color: #534C64;
-    font-size: 16px;
-    font-weight: 600;
+
+
+/****funny videos****/
+.funny {
+    text-align: center;
+
+
 }
+
+.funny h5 {
+    font-size: 40px;
+    margin: 0px;
+
+}
+
+.card-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card-area img {
+    width: 260px;
+    height: 350px;
+
+}
+
+
+
 
 /*****************************responsive for mobile**********/
 @media screen and (max-width:576px) {
@@ -152,6 +177,10 @@ main {
 
     .gamer-area {
         text-align: center;
+    }
+
+    .card-area {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -167,6 +196,10 @@ main {
 
     .gamer-area {
         text-align: center;
+    }
+
+    .card-area {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
